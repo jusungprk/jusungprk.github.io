@@ -1,121 +1,121 @@
 /* Set background color */
 body {
     background-color: #f5e9e9;
-  }
-  
-  /* Change header style */
-  header {
+}
+
+/* Change header style */
+header {
     background-color: #f2c2d2;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 48px;
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px #ccc;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     margin-right: 20px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px #ccc;
     transition: color 0.3s ease-in-out;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     color: #f5e9e9;
-  }
-  
-  /* Style about section */
-  #about {
+}
+
+/* Style about section */
+#about {
     background-color: #fff;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #f2c2d2;
-  }
-  
-  p {
+}
+
+p {
     font-size: 20px;
     line-height: 1.5;
     color: #666;
-  }
-  
-  /* Style skills section */
-  #skills {
+}
+
+/* Style skills section */
+#skills {
     background-color: #fff;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
-  }
-  
-  ul {
+}
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  
-  ul li {
+}
+
+ul li {
     margin-bottom: 10px;
     font-size: 24px;
     color: #666;
-  }
-  
-  /* Style projects section */
-  #projects {
+}
+
+/* Style projects section */
+#projects {
     background-color: #fff;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
-  }
-  
-  #projects h2 {
+}
+
+#projects h2 {
     color: #f2c2d2;
     margin-bottom: 20px;
-  }
-  
-  #projects li {
+}
+
+#projects li {
     font-size: 24px;
     margin-bottom: 10px;
     color: #666;
-  }
-  
-  /* Style contact section */
-  #contact {
+}
+
+/* Style contact section */
+#contact {
     background-color: #fff;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
-  }
-  
-  #contact h2 {
+}
+
+#contact h2 {
     color: #f2c2d2;
     margin-bottom: 20px;
-  }
-  
-  #contact p {
+}
+
+#contact p {
     font-size: 24px;
     color: #666;
-  }
+}
