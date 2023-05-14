@@ -114,7 +114,8 @@ body {
   
   /* Style projects section */
   #projects {
-    background-color: #fff;;
+    background-color: #fff;
+    background-image: linear-gradient(#2c3e50, rgb(245, 249, 142));
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
@@ -131,11 +132,18 @@ body {
   #tsepic {
     align-items: right;
   }
-  #pathfinder{
+  #pathfindertext{
     align-items: right;
   }
   #pathfinderpic {
     align-items: left;
+  }
+
+  #filetext{
+    align-items: left;
+  }
+  #filepic{
+    align-items: right;
   }
 
   #projects h2 {
@@ -147,6 +155,10 @@ body {
     font-size: 24px;
     margin-bottom: 10px;
     color: #666;
+  }
+
+  .language {
+    font-family: 'Bubblegum Sans';font-size: 15px;
   }
   
   /* Style contact section */
