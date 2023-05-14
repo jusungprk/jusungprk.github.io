@@ -63,10 +63,7 @@ body {
     transition: background-color 0.5s ease;
   }
   #welcome-section:hover {
-    background-color: rgba(166, 220, 169, 0.9);
-  }
-  #welcome-text:hover {
-    color: rgba(227, 255, 70, 0.9);
+    background-color: rgb(238, 255, 0);
   }
 
   #about {
@@ -151,6 +148,6 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #d9c31a;
     pointer-events: none;
   }
