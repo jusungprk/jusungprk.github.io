@@ -8,10 +8,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 
-    document.addEventListener('click', function (event) {
-      const star = document.createElement('div');
-      star.classList.add('star');
-      star.style.top = `${event.clientY}px`;
-      star.style.left = `${event.clientX}px`;
-      document.body.appendChild(star);
-    });
+    document.addEventListener('click', function(event) {
+			var star = document.createElement('div');
+			star.className = 'star';
+			star.style.top = event.pageY + 'px';
+			star.style.left = event.pageX + 'px';
+			document.body.appendChild(star);
+			setTimeout(function() {
+				star.remove();
+			}, 1000);
+		});
