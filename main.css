@@ -33,7 +33,7 @@ body {
   
   nav ul li a {
     text-decoration: none;
-    color: #929292;
+    color: #2c3e50;
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px #ccc;
@@ -63,7 +63,7 @@ body {
     transition: background-color 0.5s ease;
   }
   #welcome-section:hover {
-    background-color: rgb(238, 255, 0);
+    background-color: yellow;
   }
 
   #about {
@@ -116,6 +116,9 @@ body {
     background-image: url(images/Pathfinder.png);
     filter: blur(8px);
     -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #projects h2 {
@@ -149,12 +152,14 @@ body {
   
   table {
     border-collapse: collapse;
-    width: 100%;
   }
   
   td {
-    border: 1px solid black;
-    padding: 10px;
+    border: none;
+    padding-left: 10px;
+  }
+  td img {
+    vertical-align: middle;
   }
 
   .icon {
@@ -164,10 +169,25 @@ body {
   }
 
   .star {
-    position: absolute;
-    width: 10px;
-    height: 10px;
+    position: fixed;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    background-color: #d9c31a;
+    background-color: yellow;
+    opacity: 0.5;
     pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: star 1s ease-out forwards;
+  }
+  
+  @keyframes star {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(3);
+      opacity: 0;
+    }
   }

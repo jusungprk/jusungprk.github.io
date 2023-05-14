@@ -8,21 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 
-    document.addEventListener('click', function(e) {
-      // Create a star element
-      var star = document.createElement('div');
-      
-      // Set the star's style
-      star.style.position = 'fixed';
-      star.style.top = e.clientY + 'px';
-      star.style.left = e.clientX + 'px';
-      star.style.width = '0';
-      star.style.height = '0';
-      star.style.borderLeft = '20px solid transparent';
-      star.style.borderRight = '20px solid transparent';
-      star.style.borderBottom = '35px solid yellow';
-      star.style.transform = 'rotate(35deg)';
-      
-      // Add the star to the page
+    document.addEventListener('click', function (event) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.top = `${event.clientY}px`;
+      star.style.left = `${event.clientX}px`;
       document.body.appendChild(star);
     });
