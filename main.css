@@ -147,6 +147,22 @@ body {
     color: #666;
   }
   
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
   .star {
     position: absolute;
     width: 10px;
