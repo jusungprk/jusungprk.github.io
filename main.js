@@ -8,13 +8,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 
-    document.addEventListener('click', function(event) {
-			var star = document.createElement('div');
-			star.className = 'star';
-			star.style.top = event.pageY + 'px';
-			star.style.left = event.pageX + 'px';
-			document.body.appendChild(star);
-			setTimeout(function() {
-				star.remove();
-			}, 1000);
-		});
+    document.addEventListener("click", function(event) {
+      var star = document.getElementById("star");
+      star.style.display = "block";
+      star.style.left = event.pageX - star.offsetWidth / 2 + "px";
+      star.style.top = event.pageY - star.offsetHeight / 2 + "px";
+      star.classList.add("animate");
+      setTimeout(function() {
+        star.style.display = "none";
+        star.classList.remove("animate");
+      }, 1000);
+    });
