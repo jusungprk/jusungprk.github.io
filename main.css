@@ -58,8 +58,7 @@ body {
     padding-top: 60px;
   }
   #navbar {
-    overflow: hidden;
-    background-color: white;
+    overflow: hidden;;
   }
   #navbar a {
     float: left;
@@ -68,7 +67,6 @@ body {
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    background-color: white;
   }
 
   /* Style about section */
