@@ -58,6 +58,15 @@ body {
     padding-top: 60px;
   }
 
+  #navbar a {
+    float: left;
+    display: block;
+    color: #91bdb3;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
   /* Style about section */
   #welcome-section {
     display: flex;
@@ -129,6 +138,7 @@ body {
   /* Style projects section */
   #projects {
     background-color: #fff;
+    background-image: none;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
