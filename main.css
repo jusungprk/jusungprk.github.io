@@ -57,7 +57,10 @@ body {
   .sticky + .content {
     padding-top: 60px;
   }
-
+  #navbar {
+    overflow: hidden;
+    background-color: white;
+  }
   #navbar a {
     float: left;
     display: block;
