@@ -61,10 +61,11 @@ body {
   #navbar a {
     float: left;
     display: block;
-    color: #91bdb3;
+    color: #2c3e50;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
+    background-color: white;
   }
 
   /* Style about section */
