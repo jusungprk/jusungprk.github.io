@@ -162,14 +162,16 @@ body {
     border: none;
     padding: 20px;
     text-align: center;
+    font-size: 100px;
+    
   }
   td img {
     vertical-align: middle;
   }
 
   .icon {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     margin-right: 5px;
   }
 
@@ -182,7 +184,7 @@ body {
     background-size: cover;
   }
   .animate {
-    animation: glow 1s ease-out;
+    animation: glow 2s ease-out;
   }
   
   @keyframes glow {
