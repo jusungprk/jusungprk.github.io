@@ -6,7 +6,7 @@ body {
   
   /* Change header style */
   header {
-    background-color: #34495e;
+    background-color: #c2c2c2;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ body {
   }
   
   nav ul li a:hover {
-    color: #f5e9e9;
+    color: #000000;
   }
   
   /* Style about section */
@@ -107,13 +107,17 @@ body {
   
   /* Style projects section */
   #projects {
-    background-color: #fff;
-    background-image: url(images/Pathfinder.png);
+    background-color: #fff;;
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
   }
-  
+  .pathfinder-background{
+    background-image: url(images/Pathfinder.png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+
   #projects h2 {
     color: #34495e;
     margin-bottom: 20px;
