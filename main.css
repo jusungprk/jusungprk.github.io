@@ -33,7 +33,7 @@ body {
   
   nav ul li a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #929292;
     font-size: 24px;
     font-weight: bold;
     text-shadow: 1px 1px #ccc;
@@ -50,11 +50,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 100px;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #welcome-text {
-    color: #7ba7d2;
+    color: #000000;
     font-size: 2em;
     text-align: center;
     margin: 0;
@@ -63,7 +63,10 @@ body {
     transition: background-color 0.5s ease;
   }
   #welcome-section:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(166, 220, 169, 0.9);
+  }
+  #welcome-text:hover {
+    color: rgba(227, 255, 70, 0.9);
   }
 
   #about {
@@ -108,6 +111,7 @@ body {
   /* Style projects section */
   #projects {
     background-color: #fff;
+    background-image: url(images/Pathfinder.png);
     padding: 40px;
     margin-top: 20px;
     box-shadow: 2px 2px #ccc;
