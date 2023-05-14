@@ -6,4 +6,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
           });
         });
-    });l
+    });
+
+document.addEventListener('click', function(event) {
+  var star = document.createElement('div');
+  star.classList.add('star');
+  star.style.top = (event.clientY - 5) + 'px';
+  star.style.left = (event.clientX - 5) + 'px';
+  document.body.appendChild(star);
+});

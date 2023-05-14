@@ -146,3 +146,11 @@ body {
     color: #666;
   }
   
+  .star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    pointer-events: none;
+  }
